@@ -5,3 +5,5 @@ const App = () => {
         <div>Is this thing on?</div>
     )
 }
+
+export default App;
