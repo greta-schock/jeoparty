@@ -12,9 +12,6 @@ app.use(morgan('dev'));
 app.use(express.static(PUBLIC_DIR));
 
 app.get('/api/jeopartytest', (req, res) => {
-  // axios.get(`https://developer.nps.gov/api/v1/parks?limit=271&q=hiking&api_key=${API_KEY_NP}`)
-  // axios.get(`https://restcountries.com/v3.1/all?fields=name,flags`)
-  // axios.get(`https://cluebase.io/api/categories?&count=1'`)
   axios.get(`http://cluebase.lukelav.in/clues/random`)
   .then((results) => {
       console.log(results)
