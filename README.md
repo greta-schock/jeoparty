@@ -1,7 +1,6 @@
 # jeoparty
-# Project Title
 
-Simple overview of use/purpose.
+Jeoparty is a trivia game to practice Jeopardy questions.
 
 ## Description
 
