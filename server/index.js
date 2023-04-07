@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use(express.static(PUBLIC_DIR));
 
-app.get('/api/jeopartytest', (req, res) => {
+app.get('/api/jeopartyTest', (req, res) => {
   axios.get(`http://cluebase.lukelav.in/clues/random`)
   .then((results) => {
       console.log(results)
