@@ -6,7 +6,7 @@ const App = () => {
     const getJeopartyTest = () => {
         axios.get('/api/jeopartyTest')
           .then((data) => {
-            console.log('random jeopardy question: ', data);
+            console.log('random jeopardy question: ', data.data);
           })
           .catch((err) => console.log(err));
     }
