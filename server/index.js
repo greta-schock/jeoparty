@@ -14,7 +14,6 @@ app.use(express.static(PUBLIC_DIR));
 app.get('/api/jeopartyTest', (req, res) => {
   axios.get(`http://cluebase.lukelav.in/clues/random`)
   .then((results) => {
-      console.log('results.data.data: ', results.data.data)
       res.send(results.data.data);
     })
     .catch((err) => {

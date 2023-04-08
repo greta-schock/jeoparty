@@ -19,8 +19,9 @@ const App = () => {
     return (
         <div>
         <h1>This is Jeoparty!</h1>
-        <div>Welcome to Jeoparty, an interactive game where you get to practice previous Jeoparty questions. I'm your host, Alex Trebek.</div>
-        <div>{console.log('in div data:', jeopartyTest.id)}</div>
+        <h2>Welcome to Jeoparty, an interactive game where you get to practice previous Jeoparty questions. I'm your host, Alex Trebek.</h2>
+        <h3>Question</h3>
+        <div>{jeopartyTest.clue}</div>
         </div>
             
     )
