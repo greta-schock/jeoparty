@@ -24,6 +24,8 @@ const App = () => {
         <div>{jeopartyTest.category}</div>
         <h3>Question</h3>
         <div>{jeopartyTest.clue}</div>
+        <h3>Answer</h3>
+        <div>What is {jeopartyTest.response}?</div>
         </div>
             
     )
