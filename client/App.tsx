@@ -20,12 +20,12 @@ const App = () => {
         <div>
         <h1>This is Jeoparty!</h1>
         <h2>Welcome to Jeoparty, an interactive game where you get to practice previous Jeoparty questions. I'm your host, Alex Trebek.</h2>
-        <h3>Category</h3>
+        {/* <h3>Category</h3>
         <div>{jeopartyTest.category}</div>
         <h3>Question</h3>
         <div>{jeopartyTest.clue}</div>
         <h3>Answer</h3>
-        <div>What is {jeopartyTest.response}?</div>
+        <div>What is {jeopartyTest.response}?</div> */}
         </div>
             
     )
